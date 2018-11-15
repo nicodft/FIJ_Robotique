@@ -2,12 +2,13 @@ import RPi.GPIO as GPIO
 import time
 import sys
 import network
+import SpyTank as st
 
 SERVER_IP = sys.argv[1]
 
-LED = 11
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(LED, GPIO.OUT)
+#LED = 11
+#GPIO.setmode(GPIO.BCM)
+#GPIO.setup(LED, GPIO.OUT)
 gotResponse = False
 
 def heard(phrase):
@@ -18,9 +19,11 @@ def heard(phrase):
     if a == "\r" or a == "\n":
       pass # skip it
     elif a == "0":
-      GPIO.output(LED, False)
+      #GPIO.output(LED, False)
+	  st.led(0,False) 
     else:
-      GPIO.output(LED, True)
+      #GPIO.output(LED, True)
+	  st.led(0, True)
   gotResponse = True
 
 while True:

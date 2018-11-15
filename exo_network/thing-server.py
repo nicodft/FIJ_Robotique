@@ -3,8 +3,9 @@
 import RPi.GPIO as GPIO
 import time
 import network
+import SpyTank
 
-SWITCH = 10
+SWITCH = 4
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(SWITCH, GPIO.IN)
 
