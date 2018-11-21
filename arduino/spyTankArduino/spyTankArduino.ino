@@ -51,9 +51,12 @@ void setup() {
 
 void loop() {
   int cmd;
+  int data;
 
   if (comm.newMessage()==true) {
     cmd = comm.readCmd();
+    Serial.print("Cmd received:");
+    Serial.println(cmd);
     if(cmd == CMD_LED1) {
       digitalWrite(LED1, comm.readParam1());
     }
@@ -87,12 +90,18 @@ void loop() {
       m1.actuate(0);
       m2.actuate(0);
     }
-	if (cmd == CMD_LIGNE_D) {
-		comm.sendMessage(CMD_LIGNE_D, analogRead(LIGNE_D));
-	}
-	if (cmd == CMD_LIGNE_D) {
-		comm.sendMessage(CMD_LIGNE_G, analogRead(LIGNE_D));
-	}
+  	if (cmd == CMD_LIGNE_D) {
+      data = analogRead(LIGNE_D);
+      Serial.print("Ligne droite - data = ");
+      Serial.println(data);
+  		comm.sendMessage(CMD_LIGNE_D, data);
+  	}
+  	if (cmd == CMD_LIGNE_G) {
+      data = analogRead(LIGNE_G);
+      Serial.print("Ligne gauche - data = ");
+      Serial.println(data);
+  		comm.sendMessage(CMD_LIGNE_G, data);
+  	}
   }
 }
 
