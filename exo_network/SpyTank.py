@@ -69,13 +69,25 @@ def litLigneDroite():
 	sendCmd(CMD_LIGNE_D);
 	time.sleep(0.1)
 	try:
+		b0 = bus.read_byte(address)
+		# print("ID: %i" % b0)
 		b1 = bus.read_byte(address)
-		b2=bus.read_byte(address)
+		b2 = bus.read_byte(address)
 	except IOError:
 		return -1
 	return b1*256 + b2
 
-
+def litLigneGauche():
+	sendCmd(CMD_LIGNE_G);
+	time.sleep(0.007)
+	try:
+		b0 = bus.read_byte(address)
+		# print("ID: %i" % b0)
+		b1 = bus.read_byte(address)
+		b2 = bus.read_byte(address)
+	except IOError:
+		return -1
+	return b1*256 + b2
 
 
 # # Arduino Digital Read

@@ -19,7 +19,7 @@ def heard(phrase):
     if a == "\r" or a == "\n":
       pass # skip it
     elif a == "0":
-      #GPIO.output(LED, False)
+      
 	  st.led(0,False) 
     else:
       #GPIO.output(LED, True)
