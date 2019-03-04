@@ -2,14 +2,22 @@ class Voiture:
 
 	def __init__(self):
 		self.marque = "Ferrari"
+<<<<<<< HEAD
 ##########
+=======
+
+>>>>>>> ajout objets et evenements
 class Personne:
 
     def __init__(self, nom, prenom):
         self.nom = nom
         self.__prenom = prenom
 
+<<<<<<< HEAD
 #########
+=======
+
+>>>>>>> ajout objets et evenements
 class Robot:
     __erreur = "erreur, le robot n'est pas actif"
 
