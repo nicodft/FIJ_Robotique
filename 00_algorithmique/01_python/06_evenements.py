@@ -1,4 +1,4 @@
-# import d'une librerie destinee aux interfaces graphique qui nous permet de
+""" # import d'une librerie destinee aux interfaces graphique qui nous permet de
 # gerer different evenements (event en anglais)
 import tkinter
 
@@ -19,6 +19,34 @@ root.bind("<KeyPress>", eventHandle) # Touche pressee
 root.bind("<KeyRelease>", eventHandle) # Touche relachee
 
 
-root.mainloop()
+root.mainloop() """
+
+#
+
+from pynput import keyboard
+
+# notre fonction de pression des touches du clavier
+def presse(key):
+    try:
+        print("la touche",key.char, "a ete pressee")
+        
+    except AttributeError:
+        print("la touche speciale",key,"a ete pressee")
+
+# notre fonction de relachement  des touches du clavier
+def relache(key):
+    print("la touche",key,"a ete relachee")
+    if key == keyboard.Key.esc:
+        # Stop ecoute
+        return False
+
+# On Collecte les evenement jusqu'a l'appel de keyboard.Listener.stop ou
+# si une de nos fonctions retourne False (ici, relache)
+with keyboard.Listener(
+        on_press=presse,
+        on_release=relache) as listener:
+    listener.join()
+
+
 
 
