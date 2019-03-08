@@ -3,10 +3,14 @@ class Voiture:
 	def __init__(self):
 		self.marque = "Ferrari"
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##########
 =======
 
 >>>>>>> ajout objets et evenements
+=======
+##########
+>>>>>>> modif event clavier
 class Personne:
 
     def __init__(self, nom, prenom):
@@ -14,10 +18,14 @@ class Personne:
         self.__prenom = prenom
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #########
 =======
 
 >>>>>>> ajout objets et evenements
+=======
+#########
+>>>>>>> modif event clavier
 class Robot:
     __erreur = "erreur, le robot n'est pas actif"
 
