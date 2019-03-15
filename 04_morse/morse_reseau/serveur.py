@@ -9,7 +9,7 @@ sock.bind((ADDRESS,PORT))
 
 def communication(thread):
     
-    reponse = thread.clientsocket.recv(2048)
+    reponse = thread.clientsocket.recv(4096)
     reponse = reponse.decode("utf-8")
 
     print("message de %s %s" % (thread.ip, thread.port, ))
