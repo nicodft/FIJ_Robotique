@@ -24,8 +24,12 @@ while True:
 =======
     sock.send(message.encode())
 
+<<<<<<< HEAD
     reponse = sock.recv(9999999)
 >>>>>>> ajout network
+=======
+    reponse = sock.recv(4096)
+>>>>>>> modif et test reseau
 
     print(reponse.decode("utf-8"))
     if message =="exit":

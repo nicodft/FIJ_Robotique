@@ -14,6 +14,7 @@ sock.bind((ADDRESS,PORT))
 def communication(thread):
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     message = thread.clientsocket.recv(4096)
     message = message.decode("utf-8")
 
@@ -26,6 +27,9 @@ def communication(thread):
     if message=="exit":
 =======
     reponse = thread.clientsocket.recv(2048)
+=======
+    reponse = thread.clientsocket.recv(4096)
+>>>>>>> modif et test reseau
     reponse = reponse.decode("utf-8")
 
     print("message de %s %s" % (thread.ip, thread.port, ))
