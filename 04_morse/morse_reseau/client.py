@@ -14,7 +14,7 @@ while True:
     message = input(">> ") # utilisez raw_input() pour les anciennes versions python
     sock.send(message.encode())
 
-    reponse = sock.recv(9999999)
+    reponse = sock.recv(4096)
 
     print(reponse.decode("utf-8"))
     if message =="exit":
