@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 # coding: utf-8
 
 dico2D={  "a":[[0,1,1,1,0],
                [1,0,0,0,1],
                [1,1,1,1,1],
+=======
+dico2D={  "a":[[0,0,1,0,0],
+               [0,1,0,1,0],
+               [1,0,0,0,1],
+>>>>>>> ajout dictionnaire lettre/matrice 2D
                [1,0,0,0,1],
                [1,0,0,0,1]],
           "b":[[1,1,1,1,0],
@@ -129,6 +135,7 @@ dico2D={  "a":[[0,1,1,1,0],
                [0,0,0,1,0],
                [0,0,1,0,0],
                [0,1,0,0,0],
+<<<<<<< HEAD
                [1,1,1,1,1]]}
 
 def testMatrice2D(lettre="a"):
@@ -142,3 +149,6 @@ def testMatrice2D(lettre="a"):
           i +=1
 
 """ testMatrice2D() """
+=======
+               [1,1,1,1,1]]}
+>>>>>>> ajout dictionnaire lettre/matrice 2D
