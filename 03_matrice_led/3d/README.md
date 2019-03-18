@@ -1,4 +1,4 @@
-Matrice LED 3d
+# Matrice LED 3D
 
 un "cube" de 3*3*5 led
 On parcourt par colonne (9 au total)
