@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Matrice LED 3D
 =======
 Matrice LED 3d
 >>>>>>> ajout documentation et readme matrice
+=======
+# Matrice LED 3D
+>>>>>>> ajout matrices et fonctions de test + listes morse
 
 un "cube" de 3*3*5 led
 On parcourt par colonne (9 au total)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # coding: utf-8
 
 dico2D={  "a":[[0,1,1,1,0],
@@ -9,6 +10,11 @@ dico2D={  "a":[[0,0,1,0,0],
                [0,1,0,1,0],
                [1,0,0,0,1],
 >>>>>>> ajout dictionnaire lettre/matrice 2D
+=======
+dico2D={  "a":[[0,1,1,1,0],
+               [1,0,0,0,1],
+               [1,1,1,1,1],
+>>>>>>> ajout matrices et fonctions de test + listes morse
                [1,0,0,0,1],
                [1,0,0,0,1]],
           "b":[[1,1,1,1,0],
@@ -136,6 +142,9 @@ dico2D={  "a":[[0,0,1,0,0],
                [0,0,1,0,0],
                [0,1,0,0,0],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ajout matrices et fonctions de test + listes morse
                [1,1,1,1,1]]}
 
 def testMatrice2D(lettre="a"):
@@ -148,7 +157,11 @@ def testMatrice2D(lettre="a"):
           print(ligne.replace("0","[ ]"))
           i +=1
 
+<<<<<<< HEAD
 """ testMatrice2D() """
 =======
                [1,1,1,1,1]]}
 >>>>>>> ajout dictionnaire lettre/matrice 2D
+=======
+testMatrice2D()
+>>>>>>> ajout matrices et fonctions de test + listes morse

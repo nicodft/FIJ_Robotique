@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # coding: utf-8
 
 dico3D={"0":[[[1,1,1],[1,1,1],[1,1,1]],
@@ -50,6 +51,18 @@ dico3D={"0":[[[1,1,1],[1,1,1],[1,1,1]],
              [[1,1,1],[1,1,1],[1,1,1]],
              [[0,0,1],[0,0,1],[0,0,1]],
              [[1,1,1],[1,1,1],[1,1,1]]]        
+=======
+dico3D={"a":[[[0,1,0],[1,1,1],[0,1,0]],
+             [[1,0,1],[0,0,0],[1,0,1]],
+             [[1,1,1],[1,1,1],[1,1,1]],
+             [[1,0,1],[0,0,0],[1,0,1]],
+             [[1,0,1],[0,0,0],[1,0,1]]],
+        "b":[[[1,1,0],[1,1,0],[1,1,0]],
+             [[1,0,1],[1,0,1],[1,0,1]],
+             [[1,1,0],[1,1,0],[1,1,0]],
+             [[1,0,1],[1,0,1],[1,0,1]],
+             [[1,1,0],[1,1,0],[1,1,0]]]
+>>>>>>> ajout matrices et fonctions de test + listes morse
 }
 
 
@@ -81,13 +94,21 @@ def testMatrice3D(lettre="a", face=1):
             print(ligne.replace("0","[ ]"))
             i+=1
 
+<<<<<<< HEAD
 def testFacesMatrice3D(lettre="0"):
+=======
+def testFacesMatrice3D(lettre="a"):
+>>>>>>> ajout matrices et fonctions de test + listes morse
     face = 1
     while face <=4:
         print("\nface",face)
         testMatrice3D(lettre,face)
         face+=1
 
+<<<<<<< HEAD
 """ for lettre in dico3D:
     print("\n",lettre)
     testFacesMatrice3D(lettre) """
+=======
+testFacesMatrice3D("a")
+>>>>>>> ajout matrices et fonctions de test + listes morse

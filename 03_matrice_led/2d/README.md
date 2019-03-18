@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Matrice LED 2d
 
 5 colonnes
@@ -15,6 +16,9 @@ matLedAlpha.ino permet de tester la matrice 2D connectée à l'Arduino seul.
 matLed2dComm.ino affiche "l'image" transmise par la Raspberry Pi.
 =======
 Matrice LED 2d
+=======
+# Matrice LED 2d
+>>>>>>> ajout matrices et fonctions de test + listes morse
 
 5 colonnes
 5 lignes
