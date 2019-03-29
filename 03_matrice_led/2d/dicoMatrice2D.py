@@ -1,3 +1,5 @@
+# coding: utf-8
+
 dico2D={  "a":[[0,1,1,1,0],
                [1,0,0,0,1],
                [1,1,1,1,1],
@@ -139,4 +141,4 @@ def testMatrice2D(lettre="a"):
           print(ligne.replace("0","[ ]"))
           i +=1
 
-testMatrice2D()
+""" testMatrice2D() """
