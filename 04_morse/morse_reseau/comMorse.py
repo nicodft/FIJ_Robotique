@@ -77,14 +77,20 @@ lettres=[
     "8",
     "9"
 ]
+<<<<<<< HEAD
 # Fon*ction prennant une lettre en parametre et renvoyant son equivalent en morse
 def encode(lettre="a"):
     """Fonction prennant une lettre en parametre et renvoyant son equivalent en morse
     sous forme de chaine de caractere"""
+=======
+
+def encode(lettre="a"):
+>>>>>>> ajout matrice3D et finlaisation exos morse
     index = lettres.index(lettre)
     return codesMorse[index]
 
 def decode(code="..."):
+<<<<<<< HEAD
     """Fonction prennant un code morse en parametre et renvoyant la lettre correspondante
     sous forme de chaine de caractere"""
     index = codesMorse.index(code)
@@ -121,3 +127,7 @@ def decodeMorse(morseBrut):
             else:
                 pass
     return reponse
+=======
+    index = codesMorse.index(code)
+    return lettres[index]
+>>>>>>> ajout matrice3D et finlaisation exos morse

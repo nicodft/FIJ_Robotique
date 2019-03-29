@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ajout matrice3D et finlaisation exos morse
 # coding: utf-8
 
 dico2D={  "a":[[0,1,1,1,0],
@@ -158,6 +161,7 @@ def testMatrice2D(lettre="a"):
           i +=1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 """ testMatrice2D() """
 =======
                [1,1,1,1,1]]}
@@ -165,3 +169,6 @@ def testMatrice2D(lettre="a"):
 =======
 testMatrice2D()
 >>>>>>> ajout matrices et fonctions de test + listes morse
+=======
+""" testMatrice2D() """
+>>>>>>> ajout matrice3D et finlaisation exos morse
