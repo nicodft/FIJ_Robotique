@@ -1,46 +1,6 @@
-""" morse={
-"a" : ".-",
-"b" : "-...",
-"c" : "-.-.",
-"d" : "-..",
-"e" : ".",
-"f" : "..-.",
-"g" : "--.",
-"h" : "....",
-"i" : "..",
-"j" : ".---",
-"k" : "-.-",
-"l" : ".-..",
-"m" : "--",
-"n" : "-.",
-"o" : "---",
-"p" : ".--.",
-"q" : "--.-",
-"r" : ".-.",
-"s" : "...",
-"t" : "-",
-"u" : "..-",
-"v" : "...-",
-"w" : ".--",
-"x" : "-..-",
-"y" : "-.--",
-"z" : "--..",
-"0" : "-----",
-"1" : ".----",
-"2" : "..---",
-"3" : "...--",
-"4" : "....-",
-"5" : ".....",
-"6" : "-....",
-"7" : "--...",
-"8" : "---..",
-"9" : "----."
-}
+# coding: utf-8
 
-print(morse["z"])
-print(list(morse.keys())[list(morse.values()).index("..-")]) """
-
-morse =[
+codesMorse =[
     ".-",
     "-...",
     "-.-.",
@@ -118,12 +78,10 @@ lettres=[
     "9"
 ]
 
-l="o"
+def encode(lettre="a"):
+    index = lettres.index(lettre)
+    return codesMorse[index]
 
-index=lettres.index(l)
-print(morse[index])
-
-codeMorse="..."
-
-index= morse.index(codeMorse)
-print(lettres[index])
+def decode(code="..."):
+    index = codesMorse.index(code)
+    return lettres[index]
