@@ -1,5 +1,6 @@
 # coding: utf-8 
 import network
+import parPhrase
 
 ADDRESS=""
 PORT=1111
@@ -9,14 +10,16 @@ sock.bind((ADDRESS,PORT))
 
 def communication(thread):
     
-    reponse = thread.clientsocket.recv(4096)
-    reponse = reponse.decode("utf-8")
+    message = thread.clientsocket.recv(4096)
+    message = message.decode("utf-8")
 
     print("message de %s %s" % (thread.ip, thread.port, ))
-    print(">>", reponse)
+    print(">>", message)
+    message= parPhrase.morse(message)
+    print(">>", message)
     thread.clientsocket.send("serveur : j'ai bien recu le message".encode())
     
-    if reponse=="exit":
+    if message=="exit":
         return False
     else:
         return True
@@ -27,7 +30,7 @@ continuer = True
 while continuer:
 
     sock.listen(10)
-    print( "En écoute...")
+    print( "En ecoute...")
 
     thread = network.newThread(sock.accept())
     thread.start()
