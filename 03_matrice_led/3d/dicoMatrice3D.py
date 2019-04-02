@@ -151,6 +151,7 @@ def testFacesMatrice3D(lettre="0"):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 """ for lettre in dico3D:
     print("\n",lettre)
     testFacesMatrice3D(lettre) """
@@ -162,3 +163,12 @@ testFacesMatrice3D("a")
     print("\n",lettre)
     testFacesMatrice3D(lettre) """
 >>>>>>> ajout matrice3D et finlaisation exos morse
+=======
+<<<<<<< Updated upstream
+""" for lettre in dico3D:
+    print("\n",lettre)
+    testFacesMatrice3D(lettre) """
+=======
+testFacesMatrice3D("b")
+>>>>>>> Stashed changes
+>>>>>>> Merge de dicoMatrice3D.py suite à des tests
