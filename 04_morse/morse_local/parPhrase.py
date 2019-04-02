@@ -5,18 +5,24 @@ import comMorse
 def texte(phrase):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> modif morse et ajout commentaires
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
     """Fonction prennant une phrase ou un mot et renvoyant son equivalent en morse
     sous forme de chaine de caractere.
     Pour faciliter la lecture, des espaces sont inserer entre les codes.
     Des / sont aussi inserer pour representer les espaces entre les mots"""
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ajout matrice3D et finlaisation exos morse
 =======
 >>>>>>> modif morse et ajout commentaires
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
     reponse=""
     for lettre in phrase:
         if lettre != " ":
@@ -31,6 +37,7 @@ def texte(phrase):
 def morse(morseBrut):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Fonction prennant une phrase ou un mot en morse et renvoyant son equivalent texte
     sous forme de chaine de caractere."""
 
@@ -41,6 +48,11 @@ def morse(morseBrut):
     sous forme de chaine de caractere."""
 
 >>>>>>> modif morse et ajout commentaires
+=======
+    """Fonction prennant une phrase ou un mot en morse et renvoyant son equivalent texte
+    sous forme de chaine de caractere."""
+
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
     reponse=""
     morseBrut = str.split(morseBrut," ")
     for element in morseBrut:

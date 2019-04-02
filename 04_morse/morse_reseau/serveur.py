@@ -3,6 +3,7 @@ import network
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import comMorse
 =======
 >>>>>>> ajout network
@@ -12,6 +13,9 @@ import parPhrase
 =======
 import comMorse
 >>>>>>> modif morse et ajout commentaires
+=======
+import comMorse
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 
 ADDRESS=""
 PORT=1111
@@ -24,6 +28,9 @@ def communication(thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
     message = thread.clientsocket.recv(4096)
     message = message.decode("utf-8")
 
@@ -31,10 +38,14 @@ def communication(thread):
     print(">>", message)
     message= comMorse.decodeMorse(message)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
     print(">>", message)
     thread.clientsocket.send("serveur : j'ai bien recu le message".encode())
     
     if message=="exit":
+<<<<<<< HEAD
 =======
     reponse = thread.clientsocket.recv(2048)
 =======
@@ -60,6 +71,8 @@ def communication(thread):
 =======
     if message=="exit":
 >>>>>>> ajout matrice3D et finlaisation exos morse
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
         return False
     else:
         return True
@@ -72,6 +85,7 @@ while continuer:
     sock.listen(10)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     print( "En ecoute...")
 =======
     print( "En écoute...")
@@ -79,6 +93,9 @@ while continuer:
 =======
     print( "En ecoute...")
 >>>>>>> ajout matrice3D et finlaisation exos morse
+=======
+    print( "En ecoute...")
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 
     thread = network.newThread(sock.accept())
     thread.start()

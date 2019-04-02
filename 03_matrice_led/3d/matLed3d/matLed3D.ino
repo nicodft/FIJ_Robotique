@@ -49,11 +49,14 @@ void testCube();
 void affiche(int image[NB_PLANS][NB_COLS]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 //void afficheChiffreDansPlanVert(int chiffre[NB_PLANS][TAILLE], int planVert);
 >>>>>>> Ajout du test de la matrice 3D
 =======
 >>>>>>> Nettoyage du code Arduino de la matrice 3D
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 void sendData();
 void receiveData(int byteCount);
 
@@ -63,12 +66,16 @@ void receiveData(int byteCount);
 void setup() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Serial.begin(57600);
 =======
 >>>>>>> Ajout du test de la matrice 3D
 =======
   Serial.begin(57600);
 >>>>>>> Nettoyage du code Arduino de la matrice 3D
+=======
+  Serial.begin(57600);
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
   Wire.begin(8);                //Set up I2C
   Wire.onReceive(receiveData);
   Wire.onRequest(sendData);
@@ -87,6 +94,7 @@ void setup() {
 void loop() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   //testCube();
   affiche(img);
 =======
@@ -102,6 +110,10 @@ void loop() {
   //testCube();
   affiche(img);
 >>>>>>> Nettoyage du code Arduino de la matrice 3D
+=======
+  //testCube();
+  affiche(img);
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 }
 
 
@@ -165,6 +177,7 @@ void receiveData(int byteCount) {
 volatile int ind=0;
 void sendData() {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -234,3 +247,5 @@ void afficheChiffreDansPlanVert(int chiffre[NB_PLANS][TAILLE], int planVert) {
 >>>>>>> Ajout du test de la matrice 3D
 =======
 >>>>>>> Nettoyage du code Arduino de la matrice 3D
+=======
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e

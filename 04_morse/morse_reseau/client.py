@@ -3,6 +3,7 @@ import network
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import comMorse
 =======
 >>>>>>> ajout network
@@ -12,6 +13,9 @@ import parPhrase
 =======
 import comMorse
 >>>>>>> modif morse et ajout commentaires
+=======
+import comMorse
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 
 
 ADDRESS=""
@@ -24,6 +28,7 @@ while True:
 
     print("message a envoyer:")
     message = input(">> ") # utilisez raw_input() pour les anciennes versions python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +52,12 @@ while True:
 =======
     reponse = sock.recv(4096)
 >>>>>>> modif et test reseau
+=======
+    morse = comMorse.encodeTexte(message)
+    sock.send(morse.encode())
+
+    reponse = sock.recv(4096)
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 
     print(reponse.decode("utf-8"))
     if message =="exit":

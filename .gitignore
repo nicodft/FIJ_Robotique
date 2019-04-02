@@ -1,6 +1,7 @@
 .directory
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.pyc
 *.bin
 =======
@@ -10,3 +11,7 @@
 *.pyc
 *.bin
 >>>>>>> Ajout du test de la matrice 3D
+=======
+*.pyc
+*.bin
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e

@@ -4,6 +4,7 @@ class Voiture:
 		self.marque = "Ferrari"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##########
 =======
 
@@ -11,6 +12,9 @@ class Voiture:
 =======
 ##########
 >>>>>>> modif event clavier
+=======
+##########
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 class Personne:
 
     def __init__(self, nom, prenom):
@@ -19,6 +23,7 @@ class Personne:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #########
 =======
 
@@ -26,6 +31,9 @@ class Personne:
 =======
 #########
 >>>>>>> modif event clavier
+=======
+#########
+>>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 class Robot:
     __erreur = "erreur, le robot n'est pas actif"
 
