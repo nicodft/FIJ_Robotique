@@ -88,6 +88,10 @@ def testFacesMatrice3D(lettre="0"):
         testMatrice3D(lettre,face)
         face+=1
 
+<<<<<<< Updated upstream
 """ for lettre in dico3D:
     print("\n",lettre)
     testFacesMatrice3D(lettre) """
+=======
+testFacesMatrice3D("b")
+>>>>>>> Stashed changes
