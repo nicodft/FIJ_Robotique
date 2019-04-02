@@ -1,6 +1,6 @@
 # coding: utf-8 
 import network
-import parPhrase
+import comMorse
 
 
 ADDRESS=""
@@ -13,7 +13,7 @@ while True:
 
     print("message a envoyer:")
     message = input(">> ") # utilisez raw_input() pour les anciennes versions python
-    morse = parPhrase.texte(message)
+    morse = comMorse.encodeTexte(message)
     sock.send(morse.encode())
 
     reponse = sock.recv(4096)
