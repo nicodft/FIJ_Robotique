@@ -2,13 +2,13 @@
 
 #define LED_DELAI   1
 #define NB_LIG      5
-#define NB_COL      4
+#define NB_COL      5
 
 
 
 int lig, col;
 int lignes[NB_LIG] = {2, 3, 4, 5, 6};
-int colonnes[NB_COL] = {8, 9, 10, 11};
+int colonnes[NB_COL] = {8, 9, 10, 11, 12};
 int img[NB_LIG][NB_COL];
 int data[NB_LIG][NB_COL];
 int i, j;
@@ -89,5 +89,3 @@ void receiveData(int byteCount) {
 volatile int ind=0;
 void sendData() {
 }
-
-
