@@ -3,6 +3,7 @@ import dicoMatrice2D
 import time
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 for key,matrice in dicoMatrice2D.dico2D.items():
     print(key)
@@ -26,3 +27,12 @@ for matrice in dicoMatrice2D.dico2D.values():
             i2cComm.writeNumber(data)
     time.sleep(1)
 >>>>>>> modif pour utiliser les dicos et tableaux
+=======
+
+for key,matrice in dicoMatrice2D.dico2D.items():
+    print(key)
+    for ligne in matrice:
+        for led in ligne:
+            i2cComm.writeNumber(led)
+    time.sleep(3)
+>>>>>>> Correction de bug dans le test de la matrice2D
