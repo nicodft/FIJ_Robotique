@@ -152,6 +152,7 @@ def testFacesMatrice3D(lettre="0"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 """ for lettre in dico3D:
     print("\n",lettre)
     testFacesMatrice3D(lettre) """
@@ -172,3 +173,8 @@ testFacesMatrice3D("a")
 testFacesMatrice3D("b")
 >>>>>>> Stashed changes
 >>>>>>> Merge de dicoMatrice3D.py suite à des tests
+=======
+""" for lettre in dico3D:
+    print("\n",lettre)
+    testFacesMatrice3D(lettre) """
+>>>>>>> Ajout du test de la matrice 3D

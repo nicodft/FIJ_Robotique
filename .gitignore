@@ -1,7 +1,12 @@
 .directory
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.pyc
 *.bin
 =======
 *.pyc
 >>>>>>> ajout .gitignore
+=======
+*.pyc
+*.bin
+>>>>>>> Ajout du test de la matrice 3D

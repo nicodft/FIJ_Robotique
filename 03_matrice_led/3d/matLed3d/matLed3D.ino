@@ -47,6 +47,10 @@ int i, j;
 
 void testCube();
 void affiche(int image[NB_PLANS][NB_COLS]);
+<<<<<<< HEAD
+=======
+//void afficheChiffreDansPlanVert(int chiffre[NB_PLANS][TAILLE], int planVert);
+>>>>>>> Ajout du test de la matrice 3D
 void sendData();
 void receiveData(int byteCount);
 
@@ -54,7 +58,10 @@ void receiveData(int byteCount);
 
 
 void setup() {
+<<<<<<< HEAD
   Serial.begin(57600);
+=======
+>>>>>>> Ajout du test de la matrice 3D
   Wire.begin(8);                //Set up I2C
   Wire.onReceive(receiveData);
   Wire.onRequest(sendData);
@@ -71,8 +78,18 @@ void setup() {
 
 
 void loop() {
+<<<<<<< HEAD
   //testCube();
   affiche(img);
+=======
+  testCube();
+
+//  for (int planVert=0; planVert<8; planVert++) {
+//    for (int t=0; t<IMG_DELAI; t+=LED_DELAI*NB_PLANS) {
+//      afficheChiffreDansPlanVert(un, planVert);
+//    }
+//  }
+>>>>>>> Ajout du test de la matrice 3D
 }
 
 
@@ -136,3 +153,69 @@ void receiveData(int byteCount) {
 volatile int ind=0;
 void sendData() {
 }
+<<<<<<< HEAD
+=======
+
+
+/*
+void afficheChiffreDansPlanVert(int chiffre[NB_PLANS][TAILLE], int planVert) {
+  int image[NB_PLANS][NB_COLS];
+
+  for (pln=0; pln<NB_PLANS; pln++) {
+    for (col=0; col<NB_COLS; col++) {
+      image[pln][col] = 0;
+    }
+  }
+  if (planVert == 0) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][0] = chiffre[pln][0];
+      image[pln][1] = chiffre[pln][1];
+      image[pln][2] = chiffre[pln][2];
+    }
+  } else if (planVert == 1) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][3] = chiffre[pln][0];
+      image[pln][4] = chiffre[pln][1];
+      image[pln][5] = chiffre[pln][2];
+    }
+  } else if (planVert == 2) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][6] = chiffre[pln][0];
+      image[pln][7] = chiffre[pln][1];
+      image[pln][8] = chiffre[pln][2];
+    }
+  } else if (planVert == 3) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][0] = chiffre[pln][0];
+      image[pln][3] = chiffre[pln][1];
+      image[pln][6] = chiffre[pln][2];
+    }
+  } else if (planVert == 4) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][1] = chiffre[pln][0];
+      image[pln][4] = chiffre[pln][1];
+      image[pln][7] = chiffre[pln][2];
+    }
+  } else if (planVert == 5) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][2] = chiffre[pln][0];
+      image[pln][5] = chiffre[pln][1];
+      image[pln][8] = chiffre[pln][2];
+    }
+  } else if (planVert == 6) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][0] = chiffre[pln][0];
+      image[pln][4] = chiffre[pln][1];
+      image[pln][8] = chiffre[pln][2];
+    }
+  } else if (planVert == 7) {
+    for (pln=0; pln<NB_PLANS; pln++) {
+      image[pln][6] = chiffre[pln][0];
+      image[pln][4] = chiffre[pln][1];
+      image[pln][2] = chiffre[pln][2];
+    }
+  }
+}
+
+*/
+>>>>>>> Ajout du test de la matrice 3D
