@@ -9,6 +9,7 @@ fournir dico [lettre, matrice binaire] (binaire 15 element compte par ligne) pou
 
 une fonction intensite qui prend en paramettre un charactere et une intensite comprise entre 1 et 5
 une fonction pulse qui prend en parametre la vitesse de pulsation comprise entre 1 et 5 qui permet de faire pulser les LED
+<<<<<<< HEAD
 
 On utilise ensuite la fonction de traesmission a l'arduino
 
@@ -30,3 +31,10 @@ un fonction pulse qui prend en parametre la vitesse de pulsation comprise entre 
 
 On utilise ensuite la fonction de trasmission a l'arduino
 >>>>>>> ajout documentation et readme matrice
+=======
+
+On utilise ensuite la fonction de traesmission a l'arduino
+
+matLedAlpha.ino permet de tester la matrice 2D connectée à l'Arduino seul.
+matLed2dComm.ino affiche "l'image" transmise par la Raspberry Pi.
+>>>>>>> Nettoyage des projets test qui ne sont plus utiles dans matrice 2D
