@@ -2,12 +2,16 @@
 import network
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import comMorse
 =======
 >>>>>>> ajout network
 =======
 import parPhrase
 >>>>>>> ajout matrice3D et finlaisation exos morse
+=======
+import comMorse
+>>>>>>> modif morse et ajout commentaires
 
 ADDRESS=""
 PORT=1111
@@ -26,6 +30,7 @@ def communication(thread):
     print("message de %s %s" % (thread.ip, thread.port, ))
     print(">>", message)
     message= comMorse.decodeMorse(message)
+<<<<<<< HEAD
     print(">>", message)
     thread.clientsocket.send("serveur : j'ai bien recu le message".encode())
     
@@ -44,6 +49,8 @@ def communication(thread):
     print("message de %s %s" % (thread.ip, thread.port, ))
     print(">>", message)
     message= parPhrase.morse(message)
+=======
+>>>>>>> modif morse et ajout commentaires
     print(">>", message)
     thread.clientsocket.send("serveur : j'ai bien recu le message".encode())
     

@@ -2,12 +2,16 @@
 import network
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import comMorse
 =======
 >>>>>>> ajout network
 =======
 import parPhrase
 >>>>>>> ajout matrice3D et finlaisation exos morse
+=======
+import comMorse
+>>>>>>> modif morse et ajout commentaires
 
 
 ADDRESS=""
@@ -22,6 +26,7 @@ while True:
     message = input(">> ") # utilisez raw_input() pour les anciennes versions python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     morse = comMorse.encodeTexte(message)
     sock.send(morse.encode())
 
@@ -30,6 +35,9 @@ while True:
     sock.send(message.encode())
 =======
     morse = parPhrase.texte(message)
+=======
+    morse = comMorse.encodeTexte(message)
+>>>>>>> modif morse et ajout commentaires
     sock.send(morse.encode())
 >>>>>>> ajout matrice3D et finlaisation exos morse
 
