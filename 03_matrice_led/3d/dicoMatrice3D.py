@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ajout matrice3D et finlaisation exos morse
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 # coding: utf-8
 
 dico3D={"0":[[[1,1,1],[1,1,1],[1,1,1]],
@@ -19,10 +12,6 @@ dico3D={"0":[[[1,1,1],[1,1,1],[1,1,1]],
              [[0,1,0],[0,1,0],[0,1,0]]],
         "2":[[[1,1,1],[1,1,1],[1,1,1]],
              [[0,0,1],[0,0,1],[0,0,1]],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
              [[1,1,1],[1,1,1],[1,1,1]],
              [[1,0,0],[1,0,0],[1,0,0]],
              [[1,1,1],[1,1,1],[1,1,1]]],
@@ -61,57 +50,6 @@ dico3D={"0":[[[1,1,1],[1,1,1],[1,1,1]],
              [[1,1,1],[1,1,1],[1,1,1]],
              [[0,0,1],[0,0,1],[0,0,1]],
              [[1,1,1],[1,1,1],[1,1,1]]]        
-<<<<<<< HEAD
-=======
-dico3D={"a":[[[0,1,0],[1,1,1],[0,1,0]],
-             [[1,0,1],[0,0,0],[1,0,1]],
-=======
->>>>>>> ajout matrice3D et finlaisation exos morse
-             [[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,0],[1,0,0],[1,0,0]],
-             [[1,1,1],[1,1,1],[1,1,1]]],
-        "3":[[[1,1,1],[1,1,1],[1,1,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[0,1,1],[0,1,1],[0,1,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]]],
-        "4":[[[1,0,1],[1,0,1],[1,0,1]],
-             [[1,0,1],[1,0,1],[1,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[0,0,1],[0,0,1],[0,0,1]]],
-        "5":[[[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,0],[1,0,0],[1,0,0]],
-             [[1,1,1],[1,1,1],[1,1,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]]],
-        "6":[[[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,0],[1,0,0],[1,0,0]],
-             [[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,1],[1,0,1],[1,0,1]],
-<<<<<<< HEAD
-             [[1,1,0],[1,1,0],[1,1,0]]]
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
-             [[1,1,1],[1,1,1],[1,1,1]]],
-        "7":[[[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,1],[1,0,1],[1,0,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[0,0,1],[0,0,0],[0,0,1]]],
-        "8":[[[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,1],[1,0,1],[1,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,1],[1,0,1],[1,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]]],
-        "9":[[[1,1,1],[1,1,1],[1,1,1]],
-             [[1,0,1],[1,0,1],[1,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]],
-             [[0,0,1],[0,0,1],[0,0,1]],
-             [[1,1,1],[1,1,1],[1,1,1]]]        
->>>>>>> ajout matrice3D et finlaisation exos morse
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 }
 
 
@@ -143,57 +81,13 @@ def testMatrice3D(lettre="a", face=1):
             print(ligne.replace("0","[ ]"))
             i+=1
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 def testFacesMatrice3D(lettre="0"):
-=======
-def testFacesMatrice3D(lettre="a"):
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
-def testFacesMatrice3D(lettre="0"):
->>>>>>> ajout matrice3D et finlaisation exos morse
-=======
-def testFacesMatrice3D(lettre="0"):
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
     face = 1
     while face <=4:
         print("\nface",face)
         testMatrice3D(lettre,face)
         face+=1
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 """ for lettre in dico3D:
     print("\n",lettre)
     testFacesMatrice3D(lettre) """
-=======
-testFacesMatrice3D("a")
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
-""" for lettre in dico3D:
-    print("\n",lettre)
-    testFacesMatrice3D(lettre) """
->>>>>>> ajout matrice3D et finlaisation exos morse
-=======
-<<<<<<< Updated upstream
-""" for lettre in dico3D:
-    print("\n",lettre)
-    testFacesMatrice3D(lettre) """
-=======
-testFacesMatrice3D("b")
->>>>>>> Stashed changes
->>>>>>> Merge de dicoMatrice3D.py suite à des tests
-=======
-""" for lettre in dico3D:
-    print("\n",lettre)
-    testFacesMatrice3D(lettre) """
->>>>>>> Ajout du test de la matrice 3D
-=======
-""" for lettre in dico3D:
-    print("\n",lettre)
-    testFacesMatrice3D(lettre) """
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e

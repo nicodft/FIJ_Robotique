@@ -1,46 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Matrice LED 3D
-=======
-Matrice LED 3d
->>>>>>> ajout documentation et readme matrice
-=======
-# Matrice LED 3D
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
-# Matrice LED 3D
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 
 un "cube" de 3*3*5 led
 On parcourt par colonne (9 au total)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 fournir dico [lettre, matrice binaire] (binaire 45 element, matrice par plan (5 plans)) pour l'arduino)
 
 une fonction intensite qui prend en paramettre un charactere et une intensite comprise entre 1 et 5
 un fonction pulse qui prend en parametre la vitesse de pulsation comprise entre 1 et 5 qui permet de faire pulser l'afficher
 
-=======
-une fonction qui prend un charactere en parametre et qui renvois sa valeur ASCII
-une fonction intensite qui prend en paramettre un charactere et une intensite comprise entre 1 et 5
-un fonction pulse qui prend en parametre la vitesse de pulsation comprise entre 1 et 5 qui permet de faire pulser l'afficher
-
-librairie translate qui permet de "traduire" l'ASCII en liste de binaire (45, compte par colonne et par plan verticale) pour l'arduino
-
->>>>>>> ajout documentation et readme matrice
-=======
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
-fournir dico [lettre, matrice binaire] (binaire 45 element, matrice par plan (5 plans)) pour l'arduino)
-
-une fonction intensite qui prend en paramettre un charactere et une intensite comprise entre 1 et 5
-un fonction pulse qui prend en parametre la vitesse de pulsation comprise entre 1 et 5 qui permet de faire pulser l'afficher
-
-<<<<<<< HEAD
->>>>>>> modif readme matrice 2d/3d
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 On utilise ensuite la fonction de trasmission a l'arduino

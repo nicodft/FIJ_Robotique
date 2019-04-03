@@ -1,29 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ajout matrice3D et finlaisation exos morse
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
 # coding: utf-8
 
 dico2D={  "a":[[0,1,1,1,0],
                [1,0,0,0,1],
                [1,1,1,1,1],
-<<<<<<< HEAD
-=======
-dico2D={  "a":[[0,0,1,0,0],
-               [0,1,0,1,0],
-               [1,0,0,0,1],
->>>>>>> ajout dictionnaire lettre/matrice 2D
-=======
-dico2D={  "a":[[0,1,1,1,0],
-               [1,0,0,0,1],
-               [1,1,1,1,1],
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
                [1,0,0,0,1],
                [1,0,0,0,1]],
           "b":[[1,1,1,1,0],
@@ -150,13 +129,6 @@ dico2D={  "a":[[0,1,1,1,0],
                [0,0,0,1,0],
                [0,0,1,0,0],
                [0,1,0,0,0],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
                [1,1,1,1,1]]}
 
 def testMatrice2D(lettre="a"):
@@ -169,19 +141,4 @@ def testMatrice2D(lettre="a"):
           print(ligne.replace("0","[ ]"))
           i +=1
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 """ testMatrice2D() """
-=======
-               [1,1,1,1,1]]}
->>>>>>> ajout dictionnaire lettre/matrice 2D
-=======
-testMatrice2D()
->>>>>>> ajout matrices et fonctions de test + listes morse
-=======
-""" testMatrice2D() """
->>>>>>> ajout matrice3D et finlaisation exos morse
-=======
-""" testMatrice2D() """
->>>>>>> 74d3d7597b00173dec139c1220d5d72e4079561e
